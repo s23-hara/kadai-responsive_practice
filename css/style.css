@@ -14,11 +14,19 @@
   margin: 0 auto;
 }
 
+.Q1-lp {
+  margin-top: 20px;
+}
+
 .Q2 {
   width: 300px;
   height: 300px;
   background: #ff0000;
   margin: 0 auto;
+}
+
+.Q2-lp {
+  margin-top: 20px;
 }
 
 .Q3-1 {
@@ -37,6 +45,7 @@
 .Q3,.Q5,.Q6,.Q7 {
   display: flex;
   justify-content: center;
+  padding: 20px 0;
 }
 
 .Q4-1 {
@@ -61,7 +70,7 @@
 
  .Q4 {
   width: 600px;
-  margin: 0 auto;
+  margin: 20px auto;
  }
 
  .Q5-1 {
@@ -125,32 +134,32 @@ p {
 }
 
 @media screen and ( max-width:960px ) {
-.Q1 {
+.Q1-lp {
   width: 200px;
   height: 200px;
  }  
-.Q2 {
+.Q2-lp {
   background: #007bff;
 }
-.Q3-1 {
+.Q3-1-lp {
   margin-right: 50px;
 }
-.Q4-1,.Q4-2 {
+.Q4-1-lp,.Q4-2-lp {
   float: none;
 }
-.Q5 {
+.Q5-lp {
   flex-direction: row-reverse;
 }
-.Q6-1 {
+.Q6-1-lp {
   order: 1;
 }
-.Q6-2 {
+.Q6-2-lp {
   order: 2;
 }
-.Q7-1 {
+.Q7-1-lp {
   display: none;
 }
-.Q7-2 {
+.Q7-2-lp {
   display: block;
 }
 }
