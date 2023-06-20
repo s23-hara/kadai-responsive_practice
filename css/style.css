@@ -14,19 +14,11 @@
   margin: 0 auto;
 }
 
-.Q1-lp {
-  margin-top: 20px;
-}
-
 .Q2 {
   width: 300px;
   height: 300px;
   background: #ff0000;
   margin: 0 auto;
-}
-
-.Q2-lp {
-  margin-top: 20px;
 }
 
 .Q3-1 {
@@ -134,32 +126,32 @@ p {
 }
 
 @media screen and ( max-width:960px ) {
-.Q1-lp {
+.Q1 {
   width: 200px;
   height: 200px;
  }  
-.Q2-lp {
+.Q2 {
   background: #007bff;
 }
-.Q3-1-lp {
+.Q3-1 {
   margin-right: 50px;
 }
-.Q4-1-lp,.Q4-2-lp {
+.Q4-1,.Q4-2 {
   float: none;
 }
-.Q5-lp {
+.Q5 {
   flex-direction: row-reverse;
 }
-.Q6-1-lp {
+.Q6-1 {
   order: 1;
 }
-.Q6-2-lp {
+.Q6-2 {
   order: 2;
 }
-.Q7-1-lp {
+.Q7-1 {
   display: none;
 }
-.Q7-2-lp {
+.Q7-2 {
   display: block;
 }
 }
