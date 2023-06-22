@@ -66,7 +66,7 @@
  }
 
  .Q5 {
-  flex-direction: none;
+  flex-direction: row;
  }
 
  .Q5-1 {
@@ -91,18 +91,21 @@
   width: 300px;
   height: 300px;
   background: #00ff51;
+  order: 0;
 }
 
 .Q6-2 {
   width: 300px;
   height: 300px;
   background: #d4ff00;
+  order: 1;
 }
 
 .Q6-3 {
   width: 300px;
   height: 300px;
   background: #ff00e1;
+  order: 2;
 }
 
 p {
@@ -152,6 +155,9 @@ p {
 }
 .Q6-2 {
   order: 2;
+}
+.Q6-3 {
+  order: 0;
 }
 .Q7-1 {
   display: none;
